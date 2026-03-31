@@ -1,12 +1,3 @@
-// App.tsx
-//
-// ── SETUP ──────────────────────────────────────────────────────────────────
-//  1. npm install firebase
-//  2. Fill in firebase.ts with your Firebase project credentials
-//  3. In Firebase Console → Firestore → Rules, set:
-//       allow read, write: if true;   ← (dev only; lock down for prod)
-//  4. tsconfig.json → "lib": ["dom","es2020","dom.iterable"]
-// ───────────────────────────────────────────────────────────────────────────
 
 import React, {
   useState,
@@ -814,7 +805,7 @@ const Modal: React.FC<ModalProps> = ({ day, user, uc, states, onToggle, onClose 
               ? "🎉 Day Complete! Keep the streak going!"
               : done === 0
               ? "Tap any task to mark it done"
-              : `${done}/4 done — keep pushing! 💪`}
+              : `${done}/4 done — keep pushing hard! 💪`}
           </div>
         </div>
       </div>
