@@ -805,7 +805,7 @@ const Modal: React.FC<ModalProps> = ({ day, user, uc, states, onToggle, onClose 
               ? "🎉 Day Complete! Keep the streak going!"
               : done === 0
               ? "Tap any task to mark it done"
-              : `${done}/4 done — keep pushing hard! 💪`}
+              : `${done}/4 done — keep pushing hardcore! 💪`}
           </div>
         </div>
       </div>
